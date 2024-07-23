@@ -1,0 +1,146 @@
+* {
+    color: white
+}
+
+BODY {
+    background-color: black
+}
+
+img {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top
+}
+
+img:hover{
+    transition: 1s ease-in-out;
+    transition-duration: 300ms
+}
+
+/*Logo*/
+img[src = "Images/Logo.png"] {
+    width: 45%;
+    padding-right: -100%
+}
+
+pre {
+    text-align: center;
+    text-transform: capitalize;
+    text-justify: distribute;
+    font-family: 'Courier New'
+}
+
+.tags a:hover{
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.hr {
+    border-radius: 40px
+}
+
+.SectionA {
+    display: flex;
+    align-items: left
+}
+
+.SectionA p{
+    margin-left: 1em;
+    margin-top:0px;
+    font-family: "Century"
+}
+
+.SectionB1 {
+    margin-left: 4.5em
+}
+
+.SectionB2 {
+    display: flex;
+    align-items: left
+}
+
+.SectionB2 p {
+    padding: 2em;
+    margin-top: 2em;
+    font-family: 'Century';
+    word-wrap: break-word;
+    text-align: center
+}
+
+/*customer image*/
+img[src = "Images/Customer.jpg"] {
+    padding: 0px;
+    border-style: solid;
+    border-color: rgba(148, 148, 220, 0.7);
+    border-width: 6px;
+    border-radius: 5px;
+    margin-left: 70px
+}
+
+/*customer hover prop*/
+.SectionB2 img:hover{
+    border-color: rgba(148, 148, 220, 1);
+    width: 50%
+}
+
+
+.column {
+    float: left;
+    width: 32.5%;
+    padding: 3px;
+}
+
+.row img{
+    width: 20px;
+    height: 20px
+}
+
+.row p, h4 {
+    text-align: center;
+}
+
+.row h4{
+    font-size: 25px;
+    text-decoration: underline
+}
+
+.row img:hover{
+    width: 30px;
+    height: 30px
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear:both
+}
+
+.End a{
+    text-decoration: none;
+}
+
+.End a:hover{
+    font-size: larger;
+    font-style: italic;
+}
+
+/*car image*/
+img[src = "Images/SectionA_I.jpg"] {
+    padding: 0px;
+    border-style: solid;
+    border-color: rgb(178, 178, 239);
+    border-width: 10px;
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 70px
+}
+
+/*car image hover prop*/
+img[src = "Images/SectionA_I.jpg"]:hover{
+    border-radius: 15px;
+    border-color: rgba(18, 18, 83, 0.7)
+}
+
+/*logo image*/
+img[src = "Images/Logo2.png"] {
+    width: 200px
+}
